@@ -3,7 +3,7 @@ const arr = new Array(3, 2, 1, 0, true)
 
 
 const myArr = [1, 2, 3, 4, 5, 6]
-myArr.push("oi")
+myArr.push("Hello")
 
 const arr2 = arr.concat(myArr)
 let arr3 = arr.toString()

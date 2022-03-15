@@ -2,9 +2,9 @@ const person = {
 
     name: 'Pedro',
     age: 25,
-    hobbys: [" Programar", " Ler", " Assistir séries", " Treinar"],
+    hobbies: [" Programar", " Ler", " Assistir séries", " Treinar"],
     greetings: function() {
-        return `Oi meu nome é ${this.name}, tenho ${this.age} e gosto de ${this.hobbys}`
+        return `Hi my name is: ${this.name}, i'm ${this.age} and my hobbies are: ${this.hobbies}`
     }
     
 }
@@ -16,9 +16,9 @@ people = {
     {     
         name: 'Thiago',
         age: 25,
-        hobbys: [" Programar", " Ler", " Assistir séries", " Treinar"],
+        hobbies: [" Programming", " Read", " Watch series", " Training"],
         greetings: function() {
-            return `Oi meu nome é ${this.name}, tenho ${this.age} e gosto de ${this.hobbys}`
+            return `Hi my names is: ${this.name}, i'm ${this.age} and my hobbies are: ${this.hobbies}`
         }
 
     },
@@ -26,9 +26,9 @@ people = {
     person2: {
         name: "Adriana",
         age: 27,
-        hoobys: [" Caminhar", "Ver hello kita", "Fazer boiolage", "Tocar guitarrinha"],
+        hobbies: [" Walk", "Watch cartoons", "Play eletronic guitar", "Talk a lot"],
         greetings: function (){
-            return `Oi meu nome é: ${this.name}, tenho ${this.age} anos e gosto de ${this.greetings}`
+            return `Hi my name is: ${this.name}, i'm ${this.age} years and my hobbies are: ${this.hobbies}`
         }
 
     }
