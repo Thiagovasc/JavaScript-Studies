@@ -23,3 +23,25 @@ while (food >= 1 && food <= 1000){
     food = food/2
     
 }console.log(days)
+
+
+// Joias únicas 
+const array = ["((","))","((","))",")"];
+const isUnique = [];
+
+do {
+  if (value != '') {
+    array.push(value);
+  } else {
+    break;
+  }
+} while (true);
+
+for (let i = 0; i <= array.length - 1; i++) {
+  if (!isUnique.includes(array[i]) && !array[i]){
+    isUnique.push(array[i])
+  }
+}
+console.log(isUnique.length)
+
+// ((,)),(, | ((,)),((,)),(
