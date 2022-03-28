@@ -3,7 +3,7 @@ let number = parseInt(prompt("Digite um número: "));
 console.log(`Tabuado do ${number}\n`)
 
 for (let i = 0; i <= 10; i++) {
-console.log(`${number}x${i} = ${number * i}`)
+    console.log(`${number}x${i} = ${number * i}`)
 }
 
 
